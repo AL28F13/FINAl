@@ -3,7 +3,8 @@ $(document).ready(function(e) {
 document.addEventListener("deviceready",function(){
 	
 	$('#btnmenu').on ('tap',function() {
-		navigador.vobrate(2000);
+		navigator.vibrate(2000);
+		alert ("hola")
 	
 	$('.ui-btn-icon-bottom').on('tap', function (){
 		flash ($(this));
